@@ -195,14 +195,11 @@ a{
     padding: 20px 60px;
 }
 
-.container_big{
-    padding-top: 100px;
-}
-
 .text_sez{
     font-family: 'Neu';
     font-size: 4.063rem;
     padding-bottom: 3.75rem;
+    padding-top: 100px;
 }
 
 .text_2{
@@ -251,9 +248,9 @@ a{
 .icons_big{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding-right: 4.375rem;
+    padding: 90px 0px;
 }
 
 .ic{
@@ -275,37 +272,168 @@ a{
 }
 
 .dostavka{
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 30%;
-    padding-right: 4.375rem;
+    align-items: flex-start;
 }
 
 .podderska{
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 30%;
-    padding-right: 4.375rem;
+    align-items: flex-start;
+
 }
 
 .bezop{
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 30%;
-    padding-right: 4.375rem;
+    align-items: flex-start;
+
 }
 
 .skidka{
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+
+}
+
+.about_us{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 30%;
-    padding-right: 4.375rem;
+    padding: 100px 100px;
+}
+
+.text_about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 6.563rem;
+}
+
+.text1 h2{
+    font-family: 'Neu';
+    font-size: 4.375rem;
+    padding-bottom: 4.375rem;
+}
+
+.text2 p{
+    font-family: 'Man';
+    font-size: 1.375rem;
+}
+
+.section_black .text_sez{
+    color: white;
+}
+
+.big_block{
+    width: 100%;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.text_one{
+    width: 50%;
+}
+
+.text_spam p{
+    font-family: 'Man';
+    font-size: 1.375rem;
+    color: white;
+    padding-bottom: 3.125rem;
+}
+
+.text_two{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 6.25rem;
+}
+
+.text_two p{
+    font-family: 'Man';
+    font-size: 1.25rem;
+    padding: 10px 0px;
+}
+
+.name .name{
+    display: block;
+    width: 100%;
+    height: 3.125rem;
+    padding: 1.25rem;
+    font-family: 'Man';
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+
+}
+
+.number .number{
+    display: block;
+    width: 100%;
+    height: 3.125rem;
+    padding: 1.25rem;
+    font-family: 'Man';
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+
+}
+
+.e-mail .e-mail{
+    display: block;
+    width: 100%;
+    height: 3.125rem;
+    padding: 1.25rem;
+    font-family: 'Man';
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+
+}
+
+.rassilka{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.form{
+    display: flex;
+}
+
+.rassilka label{
+    font-family: 'Man';
+    font-size: 0.875rem;
+}
+
+.obrabotka{
+    padding: 10px 0px;
+}
+
+.obrabotka label{
+    font-family: 'Man';
+    font-size: 0.875rem;
 }
