@@ -17,7 +17,7 @@ a{
 
 .logo{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0.625rem;
 }
@@ -43,6 +43,7 @@ a{
 
 .i{
     height: 1.125rem;
+    padding-right: 1.25rem;
 }
 
 .category{
@@ -436,4 +437,26 @@ a{
 .obrabotka label{
     font-family: 'Man';
     font-size: 0.875rem;
+}
+
+hr{
+    color: white;
+}
+
+.blockk{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.blockk p{
+    font-family: 'Man';
+    font-size: 0.875rem;
+    color: white;
+}
+
+.icons_s img{
+    padding-right: 1.25rem;
 }
