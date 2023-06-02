@@ -1,0 +1,311 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_big{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.625rem;
+}
+
+.language{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.language a{
+    font-family: 'Neu';
+    font-size: 0.875rem;
+    color: black;
+}
+
+.name_logo{
+    font-family: 'Neu';
+    font-size: 1.125rem;
+    letter-spacing: .2rem;
+}
+
+.i{
+    height: 1.125rem;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem;
+}
+
+.name_cat{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_cat a{
+    font-family: 'Neu';
+    font-size: 0.875rem;
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5.625rem;
+}
+
+.monochrome{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.monochrome .big{
+    font-family: 'Neu';
+    font-size: 7.188rem;
+    letter-spacing: 2rem;
+}
+
+.monochrome .little{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Neu';
+    font-size: 1.125rem;
+}
+
+
+.online_photo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1{
+    width: 70%;
+}
+
+.p2{
+    width: 25%;
+}
+
+.container_m{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6.25rem;
+}
+
+.text{
+    display: flex;
+    font-family: 'Man';
+    font-size: 3.125rem;
+
+}
+
+.text h2{
+    padding-bottom: 3.75rem;
+}
+
+.carts{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.cart .photo{
+    display: flex;
+}
+
+.cart p{
+    font-family: 'Man';
+    font-size: 1.375rem;
+    padding-top: 1.25rem;
+}
+
+.section-coll{
+    background-image: url('/assets/img/6.jpg');
+    background-size: cover;
+}
+
+.collection{
+    padding-bottom: 25rem;
+}
+
+.text_big{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7.5rem;
+}
+
+.text_big h2{
+    font-family: 'Neu';
+    font-size: 4.375rem;
+    color: white;
+    letter-spacing: 1rem;
+}
+
+.text_big p{
+    font-family: 'Man';
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    padding-top: 1.875rem;
+}
+
+.button_cat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.813rem;
+    
+
+}
+
+.button_cat a{
+    font-family: 'Neu';
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 20px 60px;
+}
+
+.container_big{
+    padding-top: 100px;
+}
+
+.text_sez{
+    font-family: 'Neu';
+    font-size: 4.063rem;
+    padding-bottom: 3.75rem;
+}
+
+.text_2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.grid-colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 30px 400px 30px;
+    gap: 0 40px;
+    padding-bottom: 100px;
+}
+
+.grid-colors img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-colors img:nth-child(1),
+.grid-colors img:nth-child(4){
+    grid-row: 1/4;
+}
+
+.grid-colors img:nth-child(4){
+    grid-column: 3;
+}
+
+.grid-colors img:nth-child(3){
+    grid-row: 3/4;
+
+}
+
+.grid-colors p{
+    font-family: 'Man';
+    font-size: 1.438rem;
+}
+
+.section_black{
+    background-color: black;
+
+}
+
+.icons_big{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4.375rem;
+}
+
+.ic{
+    height: 5rem;
+}
+
+.z_big{
+    font-family: 'Neu';
+    font-size: 1.563rem;
+    color: white;
+    padding-top: 2.5rem;
+}
+
+.z_small{
+    font-family: 'Man';
+    font-size: 1.25rem;
+    color: white;
+    padding-top: 1.563rem;
+}
+
+.dostavka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-right: 4.375rem;
+}
+
+.podderska{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-right: 4.375rem;
+}
+
+.bezop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-right: 4.375rem;
+}
+
+.skidka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-right: 4.375rem;
+}
