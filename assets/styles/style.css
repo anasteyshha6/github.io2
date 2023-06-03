@@ -241,6 +241,14 @@ a{
     font-size: 1.438rem;
 }
 
+.blocks{
+    width: 100%;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+
+
 .section_black{
     background-color: black;
 
@@ -460,3 +468,4 @@ hr{
 .icons_s img{
     padding-right: 1.25rem;
 }
+
